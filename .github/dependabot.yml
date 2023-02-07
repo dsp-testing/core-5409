@@ -16,7 +16,7 @@ updates:
     open-pull-requests-limit: 50
     allow:
       - dependency-type: "development"
-
+      - dependency-type: "indirect"
   - package-ecosystem: "npm"
     directory: "/backend"
     schedule:
